@@ -1,0 +1,6 @@
+dash==2.14.2
+pandas==2.1.4
+statsmodels==0.14.1
+vizro
+gunicorn
+dash-tools
