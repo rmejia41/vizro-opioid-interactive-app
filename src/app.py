@@ -5,8 +5,8 @@ from vizro import Vizro
 import vizro.models as vm
 import statsmodels.api as sm
 
-#df = pd.read_csv('C:/Users/Biu9/OneDrive - CDC/Python files/Python Vizro/SDOH_county_2020.csv')
-df = pd.read_csv('C:/Users/Biu9/OneDrive - CDC/Python files/Python Vizro/SDOH_county_2020.csv', encoding='ISO-8859-1') #fixes utf-8 codec can’t decode bytes in position 0-1
+#df = pd.read_csv('https://github.com/rmejia41/open_datasets/raw/main/SDOH_county_2020.csv')
+df = pd.read_csv('https://github.com/rmejia41/open_datasets/raw/main/SDOH_county_2020.csv', encoding='ISO-8859-1') #fixes utf-8 codec can’t decode bytes in position 0-1
 df.info()
 #print(df.head())
 
