@@ -40,4 +40,4 @@ dashboard = vm.Dashboard(pages=[page])
 Vizro().build(dashboard).run()
 
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(debug=False, port=8060)
